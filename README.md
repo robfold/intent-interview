@@ -44,7 +44,7 @@ Or copy [`skills/intent-interview/`](skills/intent-interview/) into your agent's
 
 Tell your agent "interview me before you build this", or call the skill by name. It uses your harness's structured question tool when there is one (`AskUserQuestion` in Claude Code). Otherwise it shows numbered options in chat.
 
-The interview ends with a five-line read-back — outcome, reason, success, limits, out of scope — that you confirm before any work starts.
+The interview ends with a five-line read-back — outcome, reason, success, limits, out of scope — that you confirm before any work starts. The agent then writes the result to a file, with your answers, its own assumptions, and the open items kept apart. [This INTENT.md](examples/sales-dashboard/INTENT.md) is the one the session in the GIF produced.
 
 ## When to use something else
 
