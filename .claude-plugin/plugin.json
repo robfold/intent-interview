@@ -1,0 +1,10 @@
+{
+  "name": "intent-interview",
+  "version": "0.1.0",
+  "description": "Find out what the user actually wants before building anything, one multiple-choice question at a time.",
+  "author": {
+    "name": "Rob"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/robfold/intent-interview"
+}

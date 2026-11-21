@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "intent-interview",
+  "description": "One multiple-choice question at a time, until the agent knows what you actually want.",
+  "owner": {
+    "name": "Rob"
+  },
+  "plugins": [
+    {
+      "name": "intent-interview",
+      "description": "Intent interview with scene-based multiple choice and no recommended answers on intent questions.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
